@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8a7f5da1-4c11-454a-b9c2-ae4d842b8b8e}">
+		<property name="assetPath">
+			<value>ExampleAssets/Interactables/barrel_rolling_loop.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>6.4164625850340133</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7d6a153b-1024-4098-b2b2-b3fa76aa4109}</destination>
+		</relationship>
+	</object>
+</objects>

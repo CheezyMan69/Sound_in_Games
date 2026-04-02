@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{eb1d0f60-0d41-4ae4-b812-09dd139ebdea}">
+		<property name="assetPath">
+			<value>ExampleAssets/Character/Radio/placeholder_640166_main_meco.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.1608163265306124</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7d6a153b-1024-4098-b2b2-b3fa76aa4109}</destination>
+		</relationship>
+	</object>
+</objects>
