@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{c917ce99-b1ce-4619-95bb-80a13ba84d85}">
+		<property name="assetPath">
+			<value>Additional Foley Sounds/FOLYClth_Hiking Jacket Cloth Movement 05_NN_NTG 5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.56421768707482989</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b0ac71e2-4d27-4e4c-a8bd-bac1614aec5f}</destination>
+		</relationship>
+	</object>
+</objects>

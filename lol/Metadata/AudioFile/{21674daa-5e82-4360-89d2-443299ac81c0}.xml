@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{21674daa-5e82-4360-89d2-443299ac81c0}">
+		<property name="assetPath">
+			<value>Additional Foley Sounds/WEAPArmr_Metal Armour Movement Rattle 32_NN_NTG 5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.47800453514739227</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b0ac71e2-4d27-4e4c-a8bd-bac1614aec5f}</destination>
+		</relationship>
+	</object>
+</objects>
