@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{9d93c731-5d45-474f-a940-2507e232a330}">
+		<property name="name">
+			<value>Armour</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7ceccc7e-3343-4994-950d-d12cb685fa0a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{502fe2f8-74aa-4b0d-952c-bfadeb8b0763}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{502fe2f8-74aa-4b0d-952c-bfadeb8b0763}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>None</value>
+			<value>Chainmail</value>
+			<value>Leather</value>
+		</property>
+		<property name="initialValue">
+			<value>2</value>
+		</property>
+	</object>
+</objects>
