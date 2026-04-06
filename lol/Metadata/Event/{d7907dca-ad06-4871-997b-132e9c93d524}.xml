@@ -163,6 +163,9 @@
 		<property name="start">
 			<value>1</value>
 		</property>
+		<property name="pitch">
+			<value>-3.20000005</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{1bf16e92-9027-43e3-bfc2-73d187f3ac09}</destination>
 		</relationship>
