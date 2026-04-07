@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{464dfc5a-503d-493a-aacc-58ac605a8f81}">
+		<property name="note">
+			<value>Good way of transitioning to the end but then we need to manully do it via the key off. It will also play everything after so not direct leaving trails of sound even if player just touches it.</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 1</value>
 		</property>

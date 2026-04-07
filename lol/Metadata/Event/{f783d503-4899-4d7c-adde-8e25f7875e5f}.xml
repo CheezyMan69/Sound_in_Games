@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f783d503-4899-4d7c-adde-8e25f7875e5f}">
+		<property name="note">
+			<value>Better way to do transtion cuz it will go directly go to the end when the perametar is changed.</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 1</value>
 		</property>

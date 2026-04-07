@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fba7576a-dd81-4b08-b1e9-f3360259c86d}">
+		<property name="note">
+			<value>Shit way of doing this cuz of loop never ends unless we click stop and then it still needs to finish the loop its in to go to end</value>
+		</property>
 		<property name="color">
 			<value>Magenta Light 1</value>
 		</property>
