@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b17a35f5-6210-404f-b993-e7c29686ee9e}">
+		<property name="note">
+			<value>A generic Weapon shoot event that can be used as a base.</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>
