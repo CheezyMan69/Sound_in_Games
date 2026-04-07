@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d7907dca-ad06-4871-997b-132e9c93d524}">
+		<property name="note">
+			<value>A oneshot sound event that occurs when our Avata/Player moves on different surfaces while wearing or carrying different things.
+
+Surface 0 - Grass
+Surface 1 - Carpe
+Surface 2 - Wood
+
+Armour 0 - None
+Armour 1 - Chainmail
+Armour 2 - Leather
+
+Bag 0 - None
+Bag 1 - Rucksack
+Bag 2 - Messanger Bag</value>
+		</property>
+		<property name="color">
+			<value>Green Light 1</value>
+		</property>
 		<property name="name">
 			<value>AvatarWalking</value>
 		</property>
@@ -8,7 +26,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7ffceff2-6344-400f-8ffb-0c535b62baa9}</destination>
+			<destination>{f3c0705f-a750-466f-80a9-4d6e46f2294d}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{2a6e5e50-8c92-4d36-b085-b9c32a8c5dcd}</destination>
@@ -38,6 +56,9 @@
 			<destination>{9117e537-f9cb-4fd0-8856-9eeb92dfd421}</destination>
 			<destination>{fa3f5d0f-7fd6-410b-a20f-240aa2a87cc2}</destination>
 			<destination>{8ab0dc13-8aa0-4f8d-b39e-dbe629bba371}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{12163653-1996-4cc5-b7e8-f7d14d32171f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{2a6e5e50-8c92-4d36-b085-b9c32a8c5dcd}">
@@ -204,7 +225,10 @@
 			<value>Wood</value>
 		</property>
 		<property name="pitch">
-			<value>1.80000007</value>
+			<value>3</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{0e04d6d6-2afc-49b2-84f3-22e0fce601b6}</destination>
@@ -284,6 +308,9 @@
 		<property name="color">
 			<value>Purple</value>
 		</property>
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>Clothes</value>
 		</property>
@@ -309,6 +336,15 @@
 		</property>
 		<property name="start">
 			<value>1</value>
+		</property>
+		<property name="delayType">
+			<value>0</value>
+		</property>
+		<property name="minimumTimeDelay">
+			<value>60</value>
+		</property>
+		<property name="maximumTimeDelay">
+			<value>160</value>
 		</property>
 		<property name="name">
 			<value>Chainmail</value>

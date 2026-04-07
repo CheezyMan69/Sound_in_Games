@@ -5,7 +5,7 @@
 			<value>Bag</value>
 		</property>
 		<relationship name="folder">
-			<destination>{7ceccc7e-3343-4994-950d-d12cb685fa0a}</destination>
+			<destination>{dc1c5858-55e5-429a-b29d-1f57a09342ef}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{ac4741b8-6b9c-4131-94f1-dc5fb6a692b4}</destination>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{e21f9b65-e050-4206-a790-99767f90d305}">
+		<property name="note">
+			<value>Enemy Event sounds</value>
+		</property>
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="name">
+			<value>Enemy</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7ffceff2-6344-400f-8ffb-0c535b62baa9}</destination>
+		</relationship>
+	</object>
+</objects>
