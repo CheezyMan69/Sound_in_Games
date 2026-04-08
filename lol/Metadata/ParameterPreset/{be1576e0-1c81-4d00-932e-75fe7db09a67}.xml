@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{be1576e0-1c81-4d00-932e-75fe7db09a67}">
+		<property name="name">
+			<value>RainIntensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cb6586f2-0137-467d-8c95-65b087c99933}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e360c335-3f90-4686-b0e7-3121b663c87b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e360c335-3f90-4686-b0e7-3121b663c87b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{82ec8580-753c-4d7e-b1df-9d2c10940d71}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{82ec8580-753c-4d7e-b1df-9d2c10940d71}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.070000000298023224</value>
+		</property>
+	</object>
+</objects>
