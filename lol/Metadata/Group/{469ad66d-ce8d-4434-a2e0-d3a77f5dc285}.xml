@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{469ad66d-ce8d-4434-a2e0-d3a77f5dc285}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
+		<property name="name">
+			<value>EN_ATTACK</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8cd5bb33-e59f-4fa3-9e6f-bc26dc92408f}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{df2b9eec-f86f-4c94-9702-a3a2c89f9226}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a8b07ca4-e940-402d-aefd-a4048636e5d3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8cd5bb33-e59f-4fa3-9e6f-bc26dc92408f}">
+		<relationship name="effects">
+			<destination>{cbe70b1a-4d2c-4b15-8849-edfd07e7a915}</destination>
+			<destination>{0af8dbcd-1967-4bf1-b960-94b7610fb7b8}</destination>
+			<destination>{1fddc4f9-37ee-497a-a581-486917646951}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{df2b9eec-f86f-4c94-9702-a3a2c89f9226}" />
+	<object class="MixerBusFader" id="{cbe70b1a-4d2c-4b15-8849-edfd07e7a915}" />
+	<object class="Sidechain" id="{0af8dbcd-1967-4bf1-b960-94b7610fb7b8}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="level">
+			<value>-8.5</value>
+		</property>
+	</object>
+	<object class="SpectralSidechain" id="{1fddc4f9-37ee-497a-a581-486917646951}">
+		<property name="minimumFrequency">
+			<value>300</value>
+		</property>
+	</object>
+</objects>

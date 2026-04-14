@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{f3629512-b87a-4fa6-9f50-a6ce90d77f76}">
+		<property name="name">
+			<value>ForestTime</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7ceccc7e-3343-4994-950d-d12cb685fa0a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f27935df-f3be-440d-b275-767003952bf4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f27935df-f3be-440d-b275-767003952bf4}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Morning</value>
+			<value>Evening</value>
+			<value>Night</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

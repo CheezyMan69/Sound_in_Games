@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{765794d7-6b86-4dc0-9b16-63e17acf7746}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
+		<property name="name">
+			<value>ENV</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{e6a8e3f6-d359-4591-9a26-d2ecac8430ba}</destination>
+		</relationship>
+		<relationship name="masters">
+			<destination>{35ad00c5-9d0f-41a6-8e71-5b8849610d61}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{7ed50576-927d-43f8-b250-d64715337a74}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{2b80de8b-a7e3-497a-8f14-42ff085a6f22}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{24b5c1d0-34d0-415a-9475-c73b6fe614cb}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{e6a8e3f6-d359-4591-9a26-d2ecac8430ba}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>11.5</value>
+		</property>
+		<property name="attackTime">
+			<value>55</value>
+		</property>
+		<property name="releaseTime">
+			<value>72</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-38</value>
+		</property>
+		<property name="maximumThreshold">
+			<value>-13.8000002</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{015b9f50-180b-42c2-a8c3-660f057ddad7}</destination>
+			<destination>{0af8dbcd-1967-4bf1-b960-94b7610fb7b8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7ed50576-927d-43f8-b250-d64715337a74}">
+		<relationship name="effects">
+			<destination>{a03ba674-17a5-4fc7-8bc0-277e2823d9b8}</destination>
+			<destination>{9aeb3abc-1cb2-429a-bc15-6d54bfdebe28}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{2b80de8b-a7e3-497a-8f14-42ff085a6f22}" />
+	<object class="MixerBusFader" id="{a03ba674-17a5-4fc7-8bc0-277e2823d9b8}" />
+	<object class="CompressorEffect" id="{9aeb3abc-1cb2-429a-bc15-6d54bfdebe28}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="threshold">
+			<value>-23.5</value>
+		</property>
+		<property name="ratio">
+			<value>4.30000019</value>
+		</property>
+		<property name="attackTime">
+			<value>2.79999995</value>
+		</property>
+		<property name="releaseTime">
+			<value>92</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{015b9f50-180b-42c2-a8c3-660f057ddad7}</destination>
+			<destination>{0af8dbcd-1967-4bf1-b960-94b7610fb7b8}</destination>
+		</relationship>
+	</object>
+</objects>
