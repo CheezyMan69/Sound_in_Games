@@ -16,11 +16,12 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{efabad93-cd84-4f0f-bd6c-ea87ddd37ab7}">
 		<relationship name="effects">
-			<destination>{8871343f-886c-463d-8b51-f7c4ba848210}</destination>
 			<destination>{a2c3f5de-c331-45c3-ad5f-bfeffb0f4a89}</destination>
+			<destination>{8871343f-886c-463d-8b51-f7c4ba848210}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{12c61e76-c4be-49f2-878a-d847a8f2dae1}" />
+	<object class="MixerBusFader" id="{a2c3f5de-c331-45c3-ad5f-bfeffb0f4a89}" />
 	<object class="SFXReverbEffect" id="{8871343f-886c-463d-8b51-f7c4ba848210}">
 		<property name="earlyDelay">
 			<value>7</value>
@@ -47,5 +48,4 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="MixerBusFader" id="{a2c3f5de-c331-45c3-ad5f-bfeffb0f4a89}" />
 </objects>
