@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fa837e89-40be-4da9-8976-9efcf34d39da}">
+		<property name="note">
+			<value>Environment Manager! An event to control the environment. This works by referencing the Environment locations and playing them acording to a location parameter called Environment. This event due to it being only based on a parameter not a timeline, there is no transition between the different environments, creating a sudden cut and play with no fade in/out effect. This makes the sound appear quite harsh or jarring for the player.
+
+EnvCity:
+City traffic
+0 - 0.3 -&gt; regular city
+0.4 - 0.6 -&gt; busy city
+0.6 - 1 -&gt; Panicked city/Crazy big metroplis
+
+CityRegion:
+Controls where the character may be and the people that are talking based on the region
+
+Outside -&gt; People outside with regular traffic
+J-Cafe -&gt; inside cafe by the street, with japanese VOs
+StudyHall -&gt; Lowesttraffic noise with different VOs and sneezes
+--------------------------------------------------------------------------------
+EnvWeatherTransition:
+Rain Intensity (Sounds stack up):
+0 - 0.05 -&gt; No rain
+0.06 - 0.3 -&gt; light rain
+0.3 - 0.5 -&gt;  medium rain
+0.55  - 1 -&gt; Heavy rain
+
+WindIntensity
+0.0 - 0.2 -&gt; light wind
+0.25 - 0.5 -&gt; medium wind
+0.55 - 1 -&gt; Strong unforgiving wind
+
+Thunder:
+Off -&gt; no thunder
+On -&gt; Thunder spawns every now and then and takes big effect on the sound
+--------------------------------------------------------------------------------
+EnvForest:
+ForestTime:
+0 - Morning
+1 - Evening
+2 - Night
+
+BirdIntensity:
+0 -&gt; no birds chirping
+1 -&gt; birds awake and flying
+(volume and spawn rate changes depening on the ForestTime - the later it is, the less birds you will hear and vice versa.)</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>
@@ -126,6 +169,7 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{f8250be0-117e-4304-ac27-74f078bbd0e8}</destination>
+			<destination>{ea6fcc74-3523-4329-8997-65a82c7ebfb5}</destination>
 		</relationship>
 		<relationship name="event">
 			<destination>{aac0607a-8e18-414d-a1a7-a2458a387026}</destination>
@@ -220,6 +264,11 @@
 	<object class="ParameterProperty" id="{f8250be0-117e-4304-ac27-74f078bbd0e8}">
 		<relationship name="parameter">
 			<destination>{cc049aec-b75c-47f6-8060-748d9d1f11c8}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProperty" id="{ea6fcc74-3523-4329-8997-65a82c7ebfb5}">
+		<relationship name="parameter">
+			<destination>{d7f814e1-4779-42f4-96ad-3f3d0cefb0fe}</destination>
 		</relationship>
 	</object>
 	<object class="ADSRModulator" id="{685eb756-c14f-401a-acb7-7537a018a39b}">

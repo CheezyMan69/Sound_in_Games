@@ -2,7 +2,22 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{834e7b9e-7927-4599-a883-f2b5b0eeffd9}">
 		<property name="note">
-			<value>Overall Weather Looping event that controls Wind and Rain Intensity (Float/Cont. perameters).</value>
+			<value>Overall Weather Looping event that controls Wind and Rain Intensity (Float/Cont. perameters). 
+
+Rain Intensity (Sounds stack up):
+0 - 0.05 -&gt; No rain
+0.06 - 0.3 -&gt; light rain
+0.3 - 0.5 -&gt;  medium rain
+0.55  - 1 -&gt; Heavy rain
+
+WindIntensity
+0.0 - 0.2 -&gt; light wind
+0.25 - 0.5 -&gt; medium wind
+0.55 - 1 -&gt; Strong unforgiving wind
+
+Thunder:
+Off -&gt; no thunder
+On -&gt; Thunder spawns every now and then and takes big effect on the sound</value>
 		</property>
 		<property name="color">
 			<value>Blue Light 1</value>

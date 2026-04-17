@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ed4ebd7c-1e90-472e-9731-b8fa9b1f3c3e}">
+		<property name="note">
+			<value>An ambience (looping) event for when our player is in the Forest environment. This event uses 2 parameters, ForestTime and BirdIntensity.
+
+ForestTime:
+0 - Morning
+1 - Evening
+2 - Night
+
+BirdIntensity:
+0 -&gt; no birds chirping
+1 -&gt; birds awake and flying
+(volume and spawn rate changes depening on the ForestTime - the later it is, the less birds you will hear and vice versa.)</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>
@@ -189,7 +202,13 @@
 			<value>1</value>
 		</property>
 		<property name="polyphony">
-			<value>12</value>
+			<value>5</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>700</value>
+		</property>
+		<property name="volumeRandomization">
+			<value>-32</value>
 		</property>
 		<relationship name="automators">
 			<destination>{7b401c0f-0562-4d25-9557-3269470ef212}</destination>
@@ -255,14 +274,60 @@
 	</object>
 	<object class="MixerBusPanner" id="{3172997f-2585-4c66-bdd7-da322fbd63be}" />
 	<object class="MixerBusFader" id="{35b0eaf7-4633-4c59-99c7-8efc2de84bb2}" />
-	<object class="SpatialiserEffect" id="{1a57b07f-9111-4301-aaf4-48ec0d23e1c3}" />
+	<object class="SpatialiserEffect" id="{1a57b07f-9111-4301-aaf4-48ec0d23e1c3}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c5b42637-a5f4-454b-98a2-df99e54e8c6f}" />
 	<object class="MultibandEqEffect" id="{3c8c6fb4-96de-4607-937f-26ba09908eec}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="filterTypeB">
+			<value>11</value>
+		</property>
+		<property name="filterTypeC">
+			<value>11</value>
+		</property>
+		<property name="filterTypeE">
+			<value>8</value>
+		</property>
 		<property name="frequencyA">
-			<value>2828.78833</value>
+			<value>43.0490456</value>
+		</property>
+		<property name="frequencyB">
+			<value>283.661224</value>
+		</property>
+		<property name="frequencyC">
+			<value>1616.77271</value>
+		</property>
+		<property name="frequencyE">
+			<value>6894.82324</value>
 		</property>
 		<property name="qualityA">
-			<value>0.275942028</value>
+			<value>0.63374567</value>
+		</property>
+		<property name="qualityB">
+			<value>0.100000001</value>
+		</property>
+		<property name="qualityC">
+			<value>0.100000001</value>
+		</property>
+		<property name="gainA">
+			<value>2.95408487</value>
+		</property>
+		<property name="gainB">
+			<value>-1.72694016</value>
+		</property>
+		<property name="gainC">
+			<value>-1.20682526</value>
+		</property>
+		<property name="gainE">
+			<value>-12.6493301</value>
 		</property>
 	</object>
 	<object class="SpectrumAnalyzer" id="{0a1656c2-f4a3-40f4-874d-ef553f72bc93}" />
@@ -307,7 +372,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>100</value>
+			<value>50</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{26a3a183-0496-4c78-871e-c16f240ba431}">
@@ -315,7 +380,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>85</value>
+			<value>30</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{746f9108-9b2d-4052-8fce-831b7bfe458b}">
@@ -323,7 +388,7 @@
 			<value>2</value>
 		</property>
 		<property name="value">
-			<value>30</value>
+			<value>10</value>
 		</property>
 	</object>
 </objects>

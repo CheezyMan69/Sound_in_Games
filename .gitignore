@@ -14,6 +14,9 @@
 lol/.user/
 lol/.unsaved/
 lol/.cache/
+/d25karha_FMOD_projekt/
+*.zip
+
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data

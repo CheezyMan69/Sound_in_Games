@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="SandboxScene" id="{dd6fbe73-70f5-4842-b851-2b0c2e3dc5c8}">
+		<property name="note">
+			<value>Snadbox to help mix the sound by simulating the game</value>
+		</property>
 		<property name="name">
 			<value>MixingScene</value>
 		</property>

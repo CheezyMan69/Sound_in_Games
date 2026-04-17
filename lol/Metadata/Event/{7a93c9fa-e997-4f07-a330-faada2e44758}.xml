@@ -2,7 +2,9 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7a93c9fa-e997-4f07-a330-faada2e44758}">
 		<property name="note">
-			<value>A oneshot sound event for an Enemy ranged attack</value>
+			<value>A oneshot sound event for an Enemy ranged attack. Uses the distance parameter to dedicate which sound to be played depending on how far the enemy is from the player. Further away, the attack is more distant and and the closer, the attack is more chaotic and load.
+
+Also plays a vocal before the attack to warn the player with a delay beween the vocal and the attack sounds.</value>
 		</property>
 		<property name="color">
 			<value>Red</value>

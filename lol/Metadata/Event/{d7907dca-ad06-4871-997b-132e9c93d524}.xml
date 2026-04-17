@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d7907dca-ad06-4871-997b-132e9c93d524}">
 		<property name="note">
-			<value>A oneshot sound event that occurs when our Avata/Player moves on different surfaces while wearing or carrying different things.
+			<value>A oneshot sound event that occurs when our Avatar/Player moves on different surfaces while wearing or carrying different things.
 
 Surface 0 - Grass
 Surface 1 - Carpe

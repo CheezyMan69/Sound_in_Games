@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="SandboxScene" id="{8dcfbce0-d90a-4573-a804-4949803fbdfd}">
+		<property name="note">
+			<value>Snadbox to help mix the sound by simulating the game in a forest env</value>
+		</property>
 		<property name="name">
 			<value>Forest</value>
 		</property>
@@ -24,13 +27,14 @@
 			<destination>{399b6c41-78dc-49e8-b520-f71dbc008b92}</destination>
 			<destination>{3fe5441c-751c-4c05-b523-0817ceb6879e}</destination>
 			<destination>{aef87677-8142-4936-828a-32723647c291}</destination>
+			<destination>{d907435b-d7e6-45e7-a75c-34edf4c1ee29}</destination>
 		</relationship>
 	</object>
 	<object class="MarkerTrack" id="{64f8bb73-c191-4d86-904f-cb9b35161347}" />
 	<object class="Timeline" id="{d4d64d48-b961-421a-8ccd-7b6ebaf59501}" />
 	<object class="SandboxParameter" id="{bd18ce96-08ba-46d4-9e94-3f4802a9327e}">
 		<property name="parameterValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{215d830b-a1b5-435e-b9de-6c01dd3422db}</destination>
@@ -104,6 +108,17 @@
 		</property>
 		<relationship name="event">
 			<destination>{2a8d7530-2682-45d7-b1f7-0a0888c8b74d}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxEmitter" id="{d907435b-d7e6-45e7-a75c-34edf4c1ee29}">
+		<property name="positionX">
+			<value>-2.97500014</value>
+		</property>
+		<property name="positionZ">
+			<value>4.92500019</value>
+		</property>
+		<relationship name="event">
+			<destination>{d8df9b74-4a82-4761-a9ed-252cbf457f5d}</destination>
 		</relationship>
 	</object>
 	<object class="SandboxParameter" id="{f8c06db1-767b-4ae0-9286-4f794cc72c41}">

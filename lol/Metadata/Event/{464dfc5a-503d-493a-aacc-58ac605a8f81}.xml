@@ -105,6 +105,9 @@
 		<property name="length">
 			<value>0.5</value>
 		</property>
+		<property name="name">
+			<value>Start</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{36e37822-979f-42f8-9a3d-48852004b951}</destination>
 		</relationship>
@@ -156,7 +159,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7f21281d-8177-4eb9-b866-5af8bafcd313}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Barrel</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{cd47511e-cdc8-4255-a9f8-0e90b5958d34}</destination>

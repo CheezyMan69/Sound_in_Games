@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fba7576a-dd81-4b08-b1e9-f3360259c86d}">
 		<property name="note">
-			<value>Shit way of doing this cuz of loop never ends unless we click stop and then it still needs to finish the loop its in to go to end</value>
+			<value>not the best way of doing this cuz of loop never ends unless we click stop and then it still needs to finish the loop its in to go to end</value>
 		</property>
 		<property name="color">
 			<value>Magenta Light 1</value>
@@ -105,6 +105,9 @@
 		<property name="length">
 			<value>0.66358276643990932</value>
 		</property>
+		<property name="name">
+			<value>Start</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{6a587345-b021-435b-86bc-f1e49e909b01}</destination>
 			<destination>{d50fa8ee-6471-42c8-8c81-8b41e4a84a00}</destination>
@@ -135,7 +138,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d545d8b7-a73b-448f-b0ad-7fd58daa372b}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Barrel</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{0833b496-8b37-4673-a6cb-74611be2f4f7}</destination>

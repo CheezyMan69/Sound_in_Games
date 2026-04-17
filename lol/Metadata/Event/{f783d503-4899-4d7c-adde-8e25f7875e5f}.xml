@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f783d503-4899-4d7c-adde-8e25f7875e5f}">
 		<property name="note">
-			<value>Better way to do transtion cuz it will go directly go to the end when the perametar is changed.</value>
+			<value>Better way to do transtion cuz it will go directly go to the end when the perametar is changed. Uses transition region called "To End" mixed with a loop region to keep it looping. When the parameter ToEnd changes from 0 to 1 it transitions (jumps) to the destination marker "End".</value>
 		</property>
 		<property name="color">
 			<value>Magenta Light 1</value>
@@ -109,6 +109,9 @@
 		<property name="length">
 			<value>0.38</value>
 		</property>
+		<property name="name">
+			<value>Start</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{16eae020-20d4-466b-aa3e-264803bf21d8}</destination>
 		</relationship>
@@ -160,7 +163,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6869a015-9d6d-4986-a8be-a25d4c25df8e}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Barrel</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{d2cad99d-45b2-427f-9beb-bc3bd4dff055}</destination>
@@ -281,7 +284,7 @@
 	<object class="MixerBusPanner" id="{e1a80eaf-2bf4-461c-8ff4-7a1b0ae00533}" />
 	<object class="ParameterCondition" id="{f988774e-1831-41b5-9637-b830c2f33093}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
 			<value>1</value>

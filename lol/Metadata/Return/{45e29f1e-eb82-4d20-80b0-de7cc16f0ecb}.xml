@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerReturn" id="{45e29f1e-eb82-4d20-80b0-de7cc16f0ecb}">
+		<property name="note">
+			<value>Return track to simulate a reverb for a forest</value>
+		</property>
 		<property name="name">
 			<value>RTN_FOR</value>
 		</property>

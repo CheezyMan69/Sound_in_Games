@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1f671a18-027d-48fb-a33c-634c8f8c8718}">
+		<property name="note">
+			<value>Environment Manager! An event to control the environment. This works by referencing the Environment locations and playing them acording to a location parameter called Environment. 
+
+This event uses Timeline as well as magnet regions to determine which track to play, compared to the other EnvManager event, this allows for transitions to be heard and automations to take place allowing for fade ins and outs. The magnet regions work when we choose the different Environment parameter and this shifts the current play to that region. 
+
+The snapshots are instances of the mixer that work well for the different environments and they play only when the particular environment is selected.
+
+EnvCity:
+City traffic
+0 - 0.3 -&gt; regular city
+0.4 - 0.6 -&gt; busy city
+0.6 - 1 -&gt; Panicked city/Crazy big metroplis
+
+CityRegion:
+Controls where the character may be and the people that are talking based on the region
+
+Outside -&gt; People outside with regular traffic
+J-Cafe -&gt; inside cafe by the street, with japanese VOs
+StudyHall -&gt; Lowesttraffic noise with different VOs and sneezes
+--------------------------------------------------------------------------------
+EnvWeatherTransition:
+Rain Intensity (Sounds stack up):
+0 - 0.05 -&gt; No rain
+0.06 - 0.3 -&gt; light rain
+0.3 - 0.5 -&gt;  medium rain
+0.55  - 1 -&gt; Heavy rain
+
+WindIntensity
+0.0 - 0.2 -&gt; light wind
+0.25 - 0.5 -&gt; medium wind
+0.55 - 1 -&gt; Strong unforgiving wind
+
+Thunder:
+Off -&gt; no thunder
+On -&gt; Thunder spawns every now and then and takes big effect on the sound
+--------------------------------------------------------------------------------
+EnvForest:
+ForestTime:
+0 - Morning
+1 - Evening
+2 - Night
+
+BirdIntensity:
+0 -&gt; no birds chirping
+1 -&gt; birds awake and flying
+(volume and spawn rate changes depening on the ForestTime - the later it is, the less birds you will hear and vice versa.)</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 1</value>
 		</property>
@@ -46,6 +93,10 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{899109ef-5283-408a-97ee-2c06fa155947}">
+		<relationship name="modules">
+			<destination>{5a0afc61-6626-4227-8706-be659831f676}</destination>
+			<destination>{957b4f5c-6723-48de-9168-f9a0ca070847}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a4f79488-bdff-4353-a9c7-d5d9eb7efd46}</destination>
 		</relationship>
@@ -70,6 +121,8 @@
 		<relationship name="modules">
 			<destination>{84151891-b2a3-41a9-8920-bae12471a1a5}</destination>
 			<destination>{31f516f6-6007-45cd-a960-06b6c37566ac}</destination>
+			<destination>{914d59a6-73e5-419e-bb43-a9a136c2467b}</destination>
+			<destination>{0483ddd8-df15-4f48-afd3-c685df2c428c}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{69708544-a5ff-4431-9649-a0db0528c1a1}</destination>
@@ -78,6 +131,8 @@
 	<object class="GroupTrack" id="{2d1bcb99-5c82-474d-aa5e-8a87de435b85}">
 		<relationship name="modules">
 			<destination>{e9e116e6-e391-47f3-8d32-a054a354641f}</destination>
+			<destination>{a1ca23b1-0bcf-4500-99ad-fc14110a2655}</destination>
+			<destination>{1ad82d0f-54ce-47a6-864f-05cb30ea671d}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{054170e3-6a35-4ce9-a3ba-7fede371cf50}</destination>
@@ -87,6 +142,8 @@
 		<relationship name="modules">
 			<destination>{50e7868e-8c25-4c1c-a45e-a798f66b7c12}</destination>
 			<destination>{b208bda2-c960-4d17-a4f1-4f0d441c39d1}</destination>
+			<destination>{e171c6ac-8cb8-4f6f-90bf-c0dfbbdc7fdd}</destination>
+			<destination>{4c00f621-3cca-467e-876d-fce79ac47dd2}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ac04437a-8bd5-4c81-ab50-bece31211a94}</destination>
@@ -116,6 +173,19 @@
 			<destination>{77d78e2a-f3d0-4f07-b125-acb1a61d84cf}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionSourceSound" id="{5a0afc61-6626-4227-8706-be659831f676}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{957b4f5c-6723-48de-9168-f9a0ca070847}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{23887937-27a5-4e49-b73b-03a13e2ee909}">
 		<relationship name="effects">
 			<destination>{45ca0829-bacc-4a54-907d-46c3d72200e9}</destination>
@@ -128,6 +198,9 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{84151891-b2a3-41a9-8920-bae12471a1a5}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
@@ -139,12 +212,16 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{b1858208-914f-4a39-be5a-9c52c2e0e3be}</destination>
+			<destination>{59f66e40-e46b-407d-bfa7-f712d709b877}</destination>
 		</relationship>
 		<relationship name="event">
 			<destination>{aac0607a-8e18-414d-a1a7-a2458a387026}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{31f516f6-6007-45cd-a960-06b6c37566ac}">
+		<property name="color">
+			<value>Green Light 1</value>
+		</property>
 		<property name="isCutoff">
 			<value>true</value>
 		</property>
@@ -165,6 +242,19 @@
 			<destination>{ed4ebd7c-1e90-472e-9731-b8fa9b1f3c3e}</destination>
 		</relationship>
 	</object>
+	<object class="TransitionSourceSound" id="{914d59a6-73e5-419e-bb43-a9a136c2467b}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{0483ddd8-df15-4f48-afd3-c685df2c428c}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="EventMixerGroup" id="{69708544-a5ff-4431-9649-a0db0528c1a1}">
 		<property name="name">
 			<value>Environment</value>
@@ -180,6 +270,9 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{e9e116e6-e391-47f3-8d32-a054a354641f}">
+		<property name="color">
+			<value>Blue Light 2</value>
+		</property>
 		<property name="length">
 			<value>16</value>
 		</property>
@@ -191,6 +284,19 @@
 		<relationship name="event">
 			<destination>{834e7b9e-7927-4599-a883-f2b5b0eeffd9}</destination>
 		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{a1ca23b1-0bcf-4500-99ad-fc14110a2655}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{1ad82d0f-54ce-47a6-864f-05cb30ea671d}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="EventMixerGroup" id="{054170e3-6a35-4ce9-a3ba-7fede371cf50}">
 		<property name="name">
@@ -215,6 +321,9 @@
 		</relationship>
 	</object>
 	<object class="SnapshotModule" id="{b208bda2-c960-4d17-a4f1-4f0d441c39d1}">
+		<property name="color">
+			<value>Green Light 1</value>
+		</property>
 		<property name="start">
 			<value>10</value>
 		</property>
@@ -224,6 +333,19 @@
 		<relationship name="event">
 			<destination>{2a8d7530-2682-45d7-b1f7-0a0888c8b74d}</destination>
 		</relationship>
+	</object>
+	<object class="TransitionSourceSound" id="{e171c6ac-8cb8-4f6f-90bf-c0dfbbdc7fdd}">
+		<property name="length">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="TransitionDestinationSound" id="{4c00f621-3cca-467e-876d-fce79ac47dd2}">
+		<property name="start">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0</value>
+		</property>
 	</object>
 	<object class="EventMixerGroup" id="{ac04437a-8bd5-4c81-ab50-bece31211a94}">
 		<property name="name">
@@ -246,6 +368,9 @@
 		<property name="length">
 			<value>6</value>
 		</property>
+		<property name="name">
+			<value>City</value>
+		</property>
 		<property name="looping">
 			<value>2</value>
 		</property>
@@ -258,6 +383,9 @@
 		<relationship name="triggerConditions">
 			<destination>{65a5c3a5-11d2-4ae4-9aef-5533d66b55db}</destination>
 		</relationship>
+		<relationship name="transitionTimeline">
+			<destination>{9ccc7572-a2e1-4c6f-9ed3-954ff73630a6}</destination>
+		</relationship>
 	</object>
 	<object class="LoopRegion" id="{56934437-dbbd-41fc-95e6-89e32117f4f2}">
 		<property name="position">
@@ -265,6 +393,9 @@
 		</property>
 		<property name="length">
 			<value>6</value>
+		</property>
+		<property name="name">
+			<value>Forest</value>
 		</property>
 		<property name="looping">
 			<value>2</value>
@@ -306,6 +437,11 @@
 	<object class="ParameterProperty" id="{b1858208-914f-4a39-be5a-9c52c2e0e3be}">
 		<relationship name="parameter">
 			<destination>{cc049aec-b75c-47f6-8060-748d9d1f11c8}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProperty" id="{59f66e40-e46b-407d-bfa7-f712d709b877}">
+		<relationship name="parameter">
+			<destination>{d7f814e1-4779-42f4-96ad-3f3d0cefb0fe}</destination>
 		</relationship>
 	</object>
 	<object class="ADSRModulator" id="{77845d20-0a27-4fcd-8ba0-0eb633563655}">
@@ -380,6 +516,18 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{215d830b-a1b5-435e-b9de-6c01dd3422db}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionTimeline" id="{9ccc7572-a2e1-4c6f-9ed3-954ff73630a6}">
+		<relationship name="modules">
+			<destination>{914d59a6-73e5-419e-bb43-a9a136c2467b}</destination>
+			<destination>{0483ddd8-df15-4f48-afd3-c685df2c428c}</destination>
+			<destination>{a1ca23b1-0bcf-4500-99ad-fc14110a2655}</destination>
+			<destination>{1ad82d0f-54ce-47a6-864f-05cb30ea671d}</destination>
+			<destination>{e171c6ac-8cb8-4f6f-90bf-c0dfbbdc7fdd}</destination>
+			<destination>{4c00f621-3cca-467e-876d-fce79ac47dd2}</destination>
+			<destination>{5a0afc61-6626-4227-8706-be659831f676}</destination>
+			<destination>{957b4f5c-6723-48de-9168-f9a0ca070847}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterCondition" id="{cd45f9ce-b1a8-44ab-87f2-34ec8079cd66}">
