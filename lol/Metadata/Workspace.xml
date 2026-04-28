@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Workspace" id="{2caead07-a5da-44a0-b718-2b9be58a2b10}">
+		<property name="builtBanksOutputDirectory">
+			<value>../Unity/Testpro/Assets/Plugins/FMOD/Banks</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{7ffceff2-6344-400f-8ffb-0c535b62baa9}</destination>
 		</relationship>
