@@ -1,0 +1,13 @@
+#Ignore these FMOD-files
+
+# FMOD cache files
+.*/
+
+# Profiler recordings (can result in too large project)
+Metadata/ProfilerSession/*
+
+# If we accidentally built banks to the wrong location, ignore (can result in too large project)
+Build/*
+
+#Don't ignore the gitignore
+!.gitignore

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{8f6e2cc4-5fda-41b6-bd7c-29451b4bb9c5}">
+		<property name="name">
+			<value>PuzzleStage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e0095377-ef4a-4454-b97f-746d6865d8ae}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f8e89e0f-c900-4097-815e-0a985e583052}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f8e89e0f-c900-4097-815e-0a985e583052}">
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

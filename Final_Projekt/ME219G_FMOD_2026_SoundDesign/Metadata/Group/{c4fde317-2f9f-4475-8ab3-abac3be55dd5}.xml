@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{c4fde317-2f9f-4475-8ab3-abac3be55dd5}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
+		<property name="name">
+			<value>BGM_OverWorld</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f5e8d253-6462-47f3-9584-3982921898ac}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{5285a382-ffd2-438c-92a3-e0f2b854a640}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2be79a5a-885e-4e48-b41b-9e5fe4061459}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f5e8d253-6462-47f3-9584-3982921898ac}">
+		<relationship name="effects">
+			<destination>{9f4c5cc0-92c4-4e10-91c6-240600ccf30a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{5285a382-ffd2-438c-92a3-e0f2b854a640}" />
+	<object class="MixerBusFader" id="{9f4c5cc0-92c4-4e10-91c6-240600ccf30a}" />
+</objects>

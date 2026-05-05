@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="UiMixerView" id="{ad37d243-d589-4ee1-9d16-f64aa8625785}">
+		<property name="name">
+			<value>Zone 4</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{b6b61e64-1ee6-4294-b156-d8ff5f522b67}</destination>
+			<destination>{11aedd98-3d16-4d54-bdd8-91eb266d2699}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{f4bc4932-741a-4f31-92ee-6f588a12763b}">
+		<property name="name">
+			<value>GameOver_Snapshot</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{71c13d94-3885-478c-b8d8-392f8b2f94fd}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{ce0e64a4-648c-47cb-a759-cbc9c3cf6d85}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{beaf7368-f68d-4137-bc9e-219a88eebb34}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{dbcce697-a2fe-4139-b16f-bb8591b68ff2}</destination>
+		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{be10eb04-751a-4186-9f8b-9dc8262e0893}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{85618cce-9351-434b-9153-0d9d70ad699b}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{71c13d94-3885-478c-b8d8-392f8b2f94fd}" />
+	<object class="MarkerTrack" id="{ce0e64a4-648c-47cb-a759-cbc9c3cf6d85}" />
+	<object class="Timeline" id="{beaf7368-f68d-4137-bc9e-219a88eebb34}" />
+	<object class="SnapshotMasterTrack" id="{dbcce697-a2fe-4139-b16f-bb8591b68ff2}" />
+	<object class="SnapshotProperty" id="{be10eb04-751a-4186-9f8b-9dc8262e0893}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{2be79a5a-885e-4e48-b41b-9e5fe4061459}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{85618cce-9351-434b-9153-0d9d70ad699b}">
+		<relationship name="mixerStrip">
+			<destination>{2be79a5a-885e-4e48-b41b-9e5fe4061459}</destination>
+		</relationship>
+	</object>
+</objects>

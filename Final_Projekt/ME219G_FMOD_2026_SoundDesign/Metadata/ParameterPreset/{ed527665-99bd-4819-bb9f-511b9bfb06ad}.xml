@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ed527665-99bd-4819-bb9f-511b9bfb06ad}">
+		<property name="name">
+			<value>MenuDepth</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dbf6705f-995c-4981-b452-fd4a99fb6360}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{38d747b2-eee3-4cc4-a9f8-092e23cda1d2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{38d747b2-eee3-4cc4-a9f8-092e23cda1d2}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{0284cebd-0fa1-4e63-afbd-feba357754f0}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{0284cebd-0fa1-4e63-afbd-feba357754f0}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.25</value>
+		</property>
+	</object>
+</objects>
