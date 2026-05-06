@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="name">
-			<value>AMB_SMALL</value>
+			<value>AMB_LOC</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6c461c86-6342-49cd-95ca-89f42125ab83}</destination>

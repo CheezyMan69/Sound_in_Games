@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{c393a001-c676-430e-aa92-c7504cb95c67}">
+		<property name="name">
+			<value>AMB_WEA</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{fca94d9e-db16-43b9-ab40-f81201691782}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8cfb8725-8ad8-430a-ac94-95ab391ff4dd}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{76a38aab-4b47-421a-b61f-27ae3a2d8125}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{fca94d9e-db16-43b9-ab40-f81201691782}">
+		<relationship name="effects">
+			<destination>{f6799c86-eea5-4372-abf9-1f3561724c3a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8cfb8725-8ad8-430a-ac94-95ab391ff4dd}" />
+	<object class="MixerBusFader" id="{f6799c86-eea5-4372-abf9-1f3561724c3a}" />
+</objects>
