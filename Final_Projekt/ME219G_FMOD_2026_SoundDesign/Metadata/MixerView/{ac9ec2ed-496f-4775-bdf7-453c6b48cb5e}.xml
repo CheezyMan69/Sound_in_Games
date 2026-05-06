@@ -4,6 +4,11 @@
 		<property name="name">
 			<value>Ambiance</value>
 		</property>
+		<relationship name="assignedStrips">
+			<destination>{76a38aab-4b47-421a-b61f-27ae3a2d8125}</destination>
+			<destination>{afc11b7e-97f4-4bf3-a20f-14ef7b7350c7}</destination>
+			<destination>{0021edce-a47d-45b8-a851-0d356333aece}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
 		</relationship>

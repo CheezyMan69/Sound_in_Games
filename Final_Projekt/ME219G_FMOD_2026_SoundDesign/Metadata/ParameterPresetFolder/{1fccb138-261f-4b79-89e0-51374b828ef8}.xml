@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{1fccb138-261f-4b79-89e0-51374b828ef8}">
+		<property name="name">
+			<value>PlyFoley</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d0839519-0fbd-4a3f-8c7a-d883113c92f9}</destination>
+		</relationship>
+	</object>
+</objects>

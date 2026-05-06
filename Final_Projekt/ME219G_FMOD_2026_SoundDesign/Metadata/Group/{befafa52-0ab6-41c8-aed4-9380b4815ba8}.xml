@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{befafa52-0ab6-41c8-aed4-9380b4815ba8}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
+		<property name="name">
+			<value>PLY_WEAP</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{82912738-f1de-4fca-b0d0-508adab48366}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ad03fbb9-f273-4722-97fa-ba558658ad60}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{6ae481bb-f54f-407a-b7c7-e6ddbd9e7306}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{82912738-f1de-4fca-b0d0-508adab48366}">
+		<relationship name="effects">
+			<destination>{a4232fff-03b9-44bc-8da3-b147637e817c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ad03fbb9-f273-4722-97fa-ba558658ad60}" />
+	<object class="MixerBusFader" id="{a4232fff-03b9-44bc-8da3-b147637e817c}" />
+</objects>

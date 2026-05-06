@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{bbdacb80-2c4a-4d0c-a602-03804b59eca1}">
+		<property name="color">
+			<value>Red Light 2</value>
+		</property>
+		<property name="name">
+			<value>ENE_CHMP</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8ae7b7d7-a932-406c-be98-a3b5de07d4f8}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ea5d4586-4ab8-48db-bc22-b8cabed44839}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f6598c51-38ad-427c-b1d9-29ba476a74e7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8ae7b7d7-a932-406c-be98-a3b5de07d4f8}">
+		<relationship name="effects">
+			<destination>{4b8a85f3-5591-4fda-9045-76d9fec545d9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ea5d4586-4ab8-48db-bc22-b8cabed44839}" />
+	<object class="MixerBusFader" id="{4b8a85f3-5591-4fda-9045-76d9fec545d9}" />
+</objects>
