@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{69bea990-65ee-4efa-bedf-5e470ec72d8e}">
+		<property name="color">
+			<value>Yellow Light 1</value>
+		</property>
+		<property name="name">
+			<value>BOSS_ATTACK</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{54b4b843-ca7d-4c00-ab77-b32f82357cdf}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b12e533b-d0cc-4b99-8a3b-f88804f87ba8}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a54217c2-2778-473e-ba7a-abad7ddd26e6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{54b4b843-ca7d-4c00-ab77-b32f82357cdf}">
+		<relationship name="effects">
+			<destination>{03e812d2-8594-4bcd-95a6-2a044d561c11}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b12e533b-d0cc-4b99-8a3b-f88804f87ba8}" />
+	<object class="MixerBusFader" id="{03e812d2-8594-4bcd-95a6-2a044d561c11}" />
+</objects>

@@ -24,7 +24,6 @@
 			<destination>{c0b7bb5a-19ac-4af3-b4b0-e23e8c291ff3}</destination>
 			<destination>{d484b87d-5a69-4e93-af58-19dc12f981dc}</destination>
 			<destination>{26e9e900-173b-4e07-b062-4c28324ad193}</destination>
-			<destination>{bcce6814-756d-4c43-89a7-0058ba175c00}</destination>
 			<destination>{c530e041-b4ec-40d0-a525-e64a6a7b2b4b}</destination>
 			<destination>{b39f3d5b-8765-4602-b322-f1f24f6a7e09}</destination>
 			<destination>{72872f9f-7617-49f2-a635-19c78eec7062}</destination>
@@ -35,7 +34,6 @@
 			<destination>{bcb8b058-2044-4a4b-9513-978408352ef8}</destination>
 			<destination>{94957ada-e355-4921-82d4-25458120e9e1}</destination>
 			<destination>{1314c59f-926f-4f90-a8d2-7ebdcd3b4fef}</destination>
-			<destination>{79c55584-8083-4db5-81b4-1286c19d98db}</destination>
 			<destination>{1ebf1fc4-9207-49e2-82f2-32d9a2befecc}</destination>
 			<destination>{2bbaccbb-72ad-4cfb-b2d8-505bb22da62a}</destination>
 		</relationship>
@@ -90,17 +88,6 @@
 		</property>
 		<relationship name="automatableObject">
 			<destination>{6ae481bb-f54f-407a-b7c7-e6ddbd9e7306}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotProperty" id="{bcce6814-756d-4c43-89a7-0058ba175c00}">
-		<property name="propertyName">
-			<value>volume</value>
-		</property>
-		<property name="value">
-			<value>-30</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{6d75fbd3-270c-4705-ab58-6ad25d021a20}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotProperty" id="{c530e041-b4ec-40d0-a525-e64a6a7b2b4b}">
@@ -171,11 +158,6 @@
 	<object class="SnapshotTrack" id="{1314c59f-926f-4f90-a8d2-7ebdcd3b4fef}">
 		<relationship name="mixerStrip">
 			<destination>{6ae481bb-f54f-407a-b7c7-e6ddbd9e7306}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotTrack" id="{79c55584-8083-4db5-81b4-1286c19d98db}">
-		<relationship name="mixerStrip">
-			<destination>{6d75fbd3-270c-4705-ab58-6ad25d021a20}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{1ebf1fc4-9207-49e2-82f2-32d9a2befecc}">

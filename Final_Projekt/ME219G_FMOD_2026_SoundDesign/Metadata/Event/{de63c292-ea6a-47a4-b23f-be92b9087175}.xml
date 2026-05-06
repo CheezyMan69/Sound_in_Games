@@ -5,7 +5,7 @@
 			<value>Red</value>
 		</property>
 		<property name="name">
-			<value>EnmyAttackRanged</value>
+			<value>EneAttackRanged</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
