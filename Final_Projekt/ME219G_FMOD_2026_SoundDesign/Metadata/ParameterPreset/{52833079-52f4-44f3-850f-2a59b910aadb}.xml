@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{52833079-52f4-44f3-850f-2a59b910aadb}">
+		<property name="name">
+			<value>BirdIntensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6a62715d-29c6-463c-840b-27d30553708c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6a62715d-29c6-463c-840b-27d30553708c}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{38a53f39-2496-443d-8455-67c94485d745}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{38a53f39-2496-443d-8455-67c94485d745}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.08999999612569809</value>
+		</property>
+	</object>
+</objects>

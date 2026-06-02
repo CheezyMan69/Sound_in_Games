@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{9da359d2-a3e7-47e9-b8a1-bf46252ee076}">
+		<property name="name">
+			<value>Statue</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f10ae4b9-1093-4f5e-ba40-1fad34b25642}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b061b7d2-db70-4db4-bdfc-a90d9568ee4e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b061b7d2-db70-4db4-bdfc-a90d9568ee4e}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Tenticel</value>
+			<value>Arms</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
