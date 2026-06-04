@@ -124,6 +124,9 @@
 		<property name="length">
 			<value>0.66469387755102038</value>
 		</property>
+		<property name="pitch">
+			<value>0.5</value>
+		</property>
 		<relationship name="fadeInCurve">
 			<destination>{7056f16f-af4c-4b61-bb9c-e682fb9132ef}</destination>
 		</relationship>
