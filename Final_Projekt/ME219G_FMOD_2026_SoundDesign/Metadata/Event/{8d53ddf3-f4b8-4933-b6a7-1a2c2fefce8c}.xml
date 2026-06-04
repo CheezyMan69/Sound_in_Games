@@ -5,7 +5,7 @@
 			<value>Credits to Alexander Silo (Sasha)</value>
 		</property>
 		<property name="color">
-			<value>Magenta Light 2</value>
+			<value>Cyan Light 2</value>
 		</property>
 		<property name="name">
 			<value>ObjAcidSplash</value>
@@ -37,9 +37,6 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{94e5dbbd-bb84-4f57-b5dd-15d61460e65e}</destination>
-		</relationship>
-		<relationship name="banks">
-			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{9e6ac2dd-ceee-4a28-a44e-7a7cd27966f8}">
