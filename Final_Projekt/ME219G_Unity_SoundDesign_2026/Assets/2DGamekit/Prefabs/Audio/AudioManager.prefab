@@ -377,60 +377,60 @@ MonoBehaviour:
     snapShotPause: {fileID: 7484880938483047845}
   playerFootsteps:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1286506494
+      Data2: 1244682833
+      Data3: -1128639325
+      Data4: 1270110071
+    Path: event:/SFX/Player/PlyFootsteps
   playerJump:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 979643462
+      Data2: 1310310036
+      Data3: 1189543298
+      Data4: 1158858307
+    Path: event:/SFX/Player/PlyJump
   playerLand:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 650393988
+      Data2: 1213871126
+      Data3: 18113159
+      Data4: -776915879
+    Path: event:/SFX/Player/PlyLand
   playerAttackMelee:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1274158387
+      Data2: 1327793083
+      Data3: -1876169815
+      Data4: 2085119503
+    Path: event:/SFX/Player/PlyWeaponMelee
   playerAttackRanged:
     Guid:
-      Data1: -883968173
-      Data2: 1214887202
-      Data3: -1200054115
-      Data4: -1720930764
-    Path: event:/Music/Stingers/Stinger_Progression
+      Data1: -2058494101
+      Data2: 1276823020
+      Data3: 1445662911
+      Data4: 542932608
+    Path: event:/SFX/Player/PlyWeaponRanged
   playerHurt:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1013606413
+      Data2: 1292531166
+      Data3: -509051263
+      Data4: 1587875967
+    Path: event:/SFX/Player/PlyHurt
   wallDestroy:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -359862433
+      Data2: 1123853206
+      Data3: -2098782844
+      Data4: 917296827
+    Path: event:/SFX/Objects/ObjWallDestroy
   pickupHealth:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 571722908
+      Data2: 1334754030
+      Data3: -1760004471
+      Data4: 51504954
+    Path: event:/SFX/Objects/ObjHealthPickup
   doorSwitch:
     Guid:
       Data1: 0
@@ -440,53 +440,53 @@ MonoBehaviour:
     Path: 
   doorOpen:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1660372398
+      Data2: 1247337178
+      Data3: 36482210
+      Data4: -306859726
+    Path: event:/SFX/Objects/ObjDoorOpen
   pickupKey:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -215324799
+      Data2: 1280095780
+      Data3: 2051459765
+      Data4: -1304688513
+    Path: event:/SFX/Objects/ObjKeyPickup
   pressurePad:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1970805960
+      Data2: 1325844580
+      Data3: -2082966381
+      Data4: 562066024
+    Path: event:/SFX/Objects/ObjPressurePad
   acidSplash:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 790185601
+      Data2: 1221478595
+      Data3: -1106584410
+      Data4: 1452901892
+    Path: event:/SFX/Objects/ObjAcidSplash 2
   boxPush:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1763799973
+      Data2: 1100663607
+      Data3: 1975754660
+      Data4: -1948537848
+    Path: event:/SFX/Objects/ObjBoxPush
   menuClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 749144316
+      Data2: 1259952025
+      Data3: 1190851750
+      Data4: -1302180110
+    Path: event:/SFX/Menu/MenuClick 2
   menuStartGame:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1288485036
+      Data2: 1302785641
+      Data3: 1543199395
+      Data4: -1755586834
+    Path: event:/SFX/Menu/MenuClickStart
   enemyFootstep:
     Guid:
       Data1: 0
