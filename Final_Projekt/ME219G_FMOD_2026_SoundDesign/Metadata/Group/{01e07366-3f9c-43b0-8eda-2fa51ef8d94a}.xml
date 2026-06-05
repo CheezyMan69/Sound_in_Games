@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{01e07366-3f9c-43b0-8eda-2fa51ef8d94a}">
+		<property name="color">
+			<value>Cyan Light 2</value>
+		</property>
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
+		<property name="name">
+			<value>WEA_MEL</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{481595ba-1cd3-4bbe-9dd5-6cee00d11b64}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{d78a20f4-225a-4b25-9f4c-6b590c84a9c7}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{befafa52-0ab6-41c8-aed4-9380b4815ba8}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{481595ba-1cd3-4bbe-9dd5-6cee00d11b64}">
+		<relationship name="effects">
+			<destination>{b5ec80a4-70ed-43a0-b50d-133360b9591c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{d78a20f4-225a-4b25-9f4c-6b590c84a9c7}" />
+	<object class="MixerBusFader" id="{b5ec80a4-70ed-43a0-b50d-133360b9591c}" />
+</objects>

@@ -150,6 +150,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a0cc8ced-59b5-48b2-808b-b56bedd84aaf}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<property name="name">
 			<value>Debris</value>
 		</property>
@@ -193,9 +196,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5aa4ba2a-c008-4784-b69a-1b844c7f60f0}">
-		<property name="volume">
-			<value>-9</value>
-		</property>
 		<property name="name">
 			<value>Waterdrops</value>
 		</property>
@@ -253,6 +253,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{88c27556-db64-4c40-84ef-47cd74d6bf83}">
+		<property name="volume">
+			<value>0.5</value>
+		</property>
 		<property name="name">
 			<value>Creek(eerie)</value>
 		</property>
@@ -311,6 +314,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d6f02fec-d5bf-4c83-9ebd-03936d13a132}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Howling</value>
 		</property>
@@ -341,6 +347,7 @@
 	<object class="MixerBusEffectChain" id="{fc0f687b-16d3-409b-98f5-e78f28ed6b14}">
 		<relationship name="effects">
 			<destination>{d1f72449-b3fc-4e3c-a840-b6ff02c43799}</destination>
+			<destination>{f6a153ac-f0b4-4550-ab65-91f3f55c622b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5e89d58b-c6e9-4850-9a25-ad5b90c93f68}" />
@@ -445,6 +452,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{f6f478f6-9e69-4fd2-a28d-34ed641efe4b}" />
 	<object class="MixerBusFader" id="{d1f72449-b3fc-4e3c-a840-b6ff02c43799}" />
+	<object class="Sidechain" id="{f6a153ac-f0b4-4550-ab65-91f3f55c622b}" />
 	<object class="SingleSound" id="{2a0f9593-273f-402e-be41-1a1acd065c7b}">
 		<relationship name="audioFile">
 			<destination>{cb6212c1-cc27-458b-a0ab-4bd0098e41bd}</destination>

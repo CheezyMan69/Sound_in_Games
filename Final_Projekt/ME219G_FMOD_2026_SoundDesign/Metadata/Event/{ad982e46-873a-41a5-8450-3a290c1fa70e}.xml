@@ -198,6 +198,7 @@
 		<relationship name="effects">
 			<destination>{b75f0680-d466-455d-b6d7-d3b202853b9b}</destination>
 			<destination>{a29e2fd9-1271-4d55-91a8-dec50becaa07}</destination>
+			<destination>{2a5e3a82-c339-4c33-8a76-d0af5c7f6cd8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9a26616b-817c-4bb7-aae2-1a19cf64cf3c}" />
@@ -269,6 +270,14 @@
 	<object class="ThreeEQEffect" id="{a29e2fd9-1271-4d55-91a8-dec50becaa07}">
 		<property name="lowGain">
 			<value>-28</value>
+		</property>
+	</object>
+	<object class="ObjectSpatialiserEffect" id="{2a5e3a82-c339-4c33-8a76-d0af5c7f6cd8}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>7.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d486b48e-8ba3-4633-a762-9a42955d2d13}">

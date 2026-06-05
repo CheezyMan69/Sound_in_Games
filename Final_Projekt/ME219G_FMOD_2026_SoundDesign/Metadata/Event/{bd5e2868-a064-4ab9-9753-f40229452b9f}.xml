@@ -774,7 +774,7 @@
 			<value>1</value>
 		</property>
 		<property name="soundSize">
-			<value>14</value>
+			<value>22</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{22ab2c12-1908-4b54-9bd1-018b0b83d7b9}">

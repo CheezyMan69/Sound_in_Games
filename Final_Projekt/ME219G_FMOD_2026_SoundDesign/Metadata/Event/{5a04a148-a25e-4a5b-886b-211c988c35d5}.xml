@@ -394,6 +394,7 @@
 	<object class="MixerBusEffectChain" id="{1764cc58-a3ec-4fda-978d-b7f5a2b20e11}">
 		<relationship name="effects">
 			<destination>{c6e281d6-ea74-400d-967a-75c47bb227c2}</destination>
+			<destination>{e43fb95a-8261-4908-a1ed-81cdd2c4832b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b6a6ec26-54c0-499a-9ef0-f1f0e3fa2402}" />
@@ -401,6 +402,7 @@
 		<relationship name="effects">
 			<destination>{b93ee23d-5f59-4cee-b39a-5e2f1f76c387}</destination>
 			<destination>{8f9269f4-94a0-430f-bf21-ec2c5578c470}</destination>
+			<destination>{b290c4cf-d4b0-4f91-8f90-f04228be8668}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9b3ac3d4-52a5-4480-8e26-3487f4f615d3}" />
@@ -445,6 +447,7 @@
 	</object>
 	<object class="MixerBusFader" id="{504482a1-a090-4785-a021-0d334517cd04}" />
 	<object class="MixerBusFader" id="{c6e281d6-ea74-400d-967a-75c47bb227c2}" />
+	<object class="Sidechain" id="{e43fb95a-8261-4908-a1ed-81cdd2c4832b}" />
 	<object class="MixerBusFader" id="{b93ee23d-5f59-4cee-b39a-5e2f1f76c387}" />
 	<object class="MultibandEqEffect" id="{8f9269f4-94a0-430f-bf21-ec2c5578c470}">
 		<property name="wetDryEnabled">
@@ -465,6 +468,20 @@
 		<relationship name="modulators">
 			<destination>{ca9f52a8-477f-4ecf-b1be-3d62336e072d}</destination>
 			<destination>{31451d68-ec29-4c57-8940-bf546503a535}</destination>
+		</relationship>
+	</object>
+	<object class="CompressorEffect" id="{b290c4cf-d4b0-4f91-8f90-f04228be8668}">
+		<property name="threshold">
+			<value>-42.5</value>
+		</property>
+		<property name="ratio">
+			<value>7.5999999</value>
+		</property>
+		<property name="releaseTime">
+			<value>560</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{e43fb95a-8261-4908-a1ed-81cdd2c4832b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ce48cd51-e01e-4b0c-a431-bad6b8a32027}" />
