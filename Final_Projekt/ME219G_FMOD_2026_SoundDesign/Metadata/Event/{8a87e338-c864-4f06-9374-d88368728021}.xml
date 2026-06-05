@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8a87e338-c864-4f06-9374-d88368728021}">
+		<property name="note">
+			<value>One shot sound event, to move a pressure pad.  </value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>

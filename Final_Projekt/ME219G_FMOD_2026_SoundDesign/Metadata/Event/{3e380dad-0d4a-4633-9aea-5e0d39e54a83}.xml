@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3e380dad-0d4a-4633-9aea-5e0d39e54a83}">
+		<property name="note">
+			<value>A oneshot sound for the Gernade attack! Vertical event to build the sound and give it definition.</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>
@@ -149,7 +152,7 @@
 	</object>
 	<object class="SingleSound" id="{807c4cb5-2033-4d19-8652-0b58a41ebfb9}">
 		<property name="start">
-			<value>1</value>
+			<value>0.75</value>
 		</property>
 		<property name="length">
 			<value>0.57156249999999997</value>
@@ -166,7 +169,7 @@
 	</object>
 	<object class="SingleSound" id="{4fce4d08-5734-4660-87e0-799022325f6d}">
 		<property name="start">
-			<value>1</value>
+			<value>0.75</value>
 		</property>
 		<property name="length">
 			<value>0.47875000000000001</value>
@@ -183,7 +186,7 @@
 	</object>
 	<object class="SingleSound" id="{05055978-7acb-431c-8e6e-f14574354f89}">
 		<property name="start">
-			<value>1</value>
+			<value>0.75</value>
 		</property>
 		<property name="length">
 			<value>0.76000000000000001</value>
@@ -309,7 +312,7 @@
 	<object class="MixerBusFader" id="{47d64368-8705-4879-8dcd-87a232ed3d11}" />
 	<object class="AutomationPoint" id="{2a850fec-da4b-4e6a-b015-f09d355bf2e7}">
 		<property name="position">
-			<value>1.4787499999999998</value>
+			<value>1.2287499999999996</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -320,7 +323,7 @@
 	</object>
 	<object class="AutomationPoint" id="{2d1a5e62-9260-4d1e-a741-d782661f1726}">
 		<property name="position">
-			<value>1.5715624999999998</value>
+			<value>1.3215624999999995</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -328,7 +331,7 @@
 	</object>
 	<object class="AutomationPoint" id="{f834883d-491d-4837-aadd-83915a68f174}">
 		<property name="position">
-			<value>1.3031666666666659</value>
+			<value>1.0531666666666657</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -339,7 +342,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c214bf63-aa12-4f16-8825-130f05b2b7ea}">
 		<property name="position">
-			<value>1.4787499999999998</value>
+			<value>1.2287499999999996</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -347,7 +350,7 @@
 	</object>
 	<object class="AutomationPoint" id="{fe77c624-dd51-49ac-924f-ac4aa5fcf9bc}">
 		<property name="position">
-			<value>1.4000000000000001</value>
+			<value>1.1499999999999997</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -358,7 +361,7 @@
 	</object>
 	<object class="AutomationPoint" id="{e36fce83-633b-451b-8fa4-4b33d5f6b5e0}">
 		<property name="position">
-			<value>1.76</value>
+			<value>1.5099999999999996</value>
 		</property>
 		<property name="value">
 			<value>0</value>

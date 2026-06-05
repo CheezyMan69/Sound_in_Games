@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{eecfcaf5-c036-4b2e-8b99-4a60d00595fb}">
+		<property name="note">
+			<value>A cutscene event (follows an animation) for the death of the boss. 
+from 0 to 3.5 sec -&gt; </value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>
@@ -288,7 +292,7 @@
 			<value>0.20000000000000018</value>
 		</property>
 		<property name="pitch">
-			<value>-3.4000001</value>
+			<value>-8.5</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{7000da1e-a5e7-44bf-8400-2f37b9d74509}</destination>
@@ -347,13 +351,16 @@
 	</object>
 	<object class="SoundScatterer" id="{54ed25fa-33c0-46c0-9b98-c29b21cd4ec5}">
 		<property name="start">
-			<value>5.5</value>
+			<value>6.1000000000000005</value>
 		</property>
 		<property name="length">
 			<value>1.4999999999999998</value>
 		</property>
 		<property name="pitch">
 			<value>24</value>
+		</property>
+		<property name="polyphony">
+			<value>4</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>10</value>

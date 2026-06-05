@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5a04a148-a25e-4a5b-886b-211c988c35d5}">
+		<property name="note">
+			<value>Ambiance Manager to control the ambiance in the whole game, with transitions of effects and multiple Parameters.
+
+Location 0 = Outdoors
+Location 1 = Cave
+Location 2 = Boss
+
+BirdIntensity -&gt; small = not many birds
+big = soooo many birds
+
+WindIntensity 0 -&gt; 0.4 = small
+WindIntensity 0.4 -&gt; 0.65 = medium
+WindIntensity 0.65 -&gt; 1 = strong</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

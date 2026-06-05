@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a94577c6-4633-4c97-992c-cd0a9b28e2b3}">
+		<property name="note">
+			<value>Looping event for the Acid pool to indicate danger. Loop region to keep it going for as long as the event is there.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{be24e6b9-f947-4897-9746-1c75c6ad6e64}">
+		<property name="note">
+			<value>SFX folder with all the SFX for the project</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

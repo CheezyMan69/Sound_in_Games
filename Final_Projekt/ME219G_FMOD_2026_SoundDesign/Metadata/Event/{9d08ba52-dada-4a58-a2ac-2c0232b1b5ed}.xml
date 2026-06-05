@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9d08ba52-dada-4a58-a2ac-2c0232b1b5ed}">
+		<property name="note">
+			<value>3D oneshot sound to simulate the friction of opening a door.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>

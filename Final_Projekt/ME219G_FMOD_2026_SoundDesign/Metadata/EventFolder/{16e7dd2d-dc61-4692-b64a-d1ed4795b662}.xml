@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{16e7dd2d-dc61-4692-b64a-d1ed4795b662}">
+		<property name="note">
+			<value>Enemy folder filled with spitter and chomper events</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

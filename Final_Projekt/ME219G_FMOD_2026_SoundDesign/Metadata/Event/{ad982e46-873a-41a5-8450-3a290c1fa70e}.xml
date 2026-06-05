@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ad982e46-873a-41a5-8450-3a290c1fa70e}">
+		<property name="note">
+			<value>One shot event for the Melee attack of the chomper. Growl charge up and then metallic clang.</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>

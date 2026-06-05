@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{675e3f67-1ac8-4e3b-9268-d8edf82e7382}">
+		<property name="note">
+			<value>BossAttack folder</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>

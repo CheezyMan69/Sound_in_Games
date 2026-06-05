@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{96de8c5b-cb37-419a-a49f-c37508acdb8b}">
+		<property name="note">
+			<value>Looping sound to indicate  friction form pushing a box. uses the </value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>
@@ -64,7 +67,11 @@
 			<destination>{04c5dd4b-ec82-486f-9b74-52bb23004b54}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{e6a21fb7-d165-4ddc-b882-86fd71cb4af8}" />
+	<object class="EventAutomatableProperties" id="{e6a21fb7-d165-4ddc-b882-86fd71cb4af8}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{92559545-d6f1-47fa-a178-ba176bf01c84}" />
 	<object class="MarkerTrack" id="{039777cb-6fbd-40a6-8125-568e49a670ac}" />
 	<object class="GroupTrack" id="{fb9f2b0e-448c-4d34-a35b-e239cdf010a3}">
@@ -365,10 +372,10 @@
 	</object>
 	<object class="ParameterCondition" id="{0f517829-dc76-47ee-8581-10cf9270595f}">
 		<property name="minimum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{650644c5-a140-4319-905a-6377818a3bb2}</destination>

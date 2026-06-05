@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b097df8c-a3b9-4824-a297-3fbe9846800b}">
+		<property name="note">
+			<value>A cartoonish one shot event for the death of the enemies (chomper and spitter). When they die, they go POP!!</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>

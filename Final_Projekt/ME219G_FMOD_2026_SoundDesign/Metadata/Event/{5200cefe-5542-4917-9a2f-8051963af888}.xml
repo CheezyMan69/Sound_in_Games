@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5200cefe-5542-4917-9a2f-8051963af888}">
+		<property name="note">
+			<value>A one shot event to indicate some damage has been taken by the boss. </value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>

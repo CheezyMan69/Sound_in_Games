@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5b78c6f7-5935-4198-8b0c-25b676c1cf4e}">
+		<property name="note">
+			<value>oneshot sound to show footsteps and movement of the boss.</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{4cd0cc64-82af-46e3-9055-f85fbc544d6d}">
+		<property name="note">
+			<value>BossAtackLaser is a oneshot sound that utalizes the PlyWeaponRanged sound with some edits to sound different.</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>

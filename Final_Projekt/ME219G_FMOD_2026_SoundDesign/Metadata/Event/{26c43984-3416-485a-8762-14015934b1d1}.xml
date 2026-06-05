@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{26c43984-3416-485a-8762-14015934b1d1}">
+		<property name="note">
+			<value>Oneshot sound for the landing of the player. Uses the surface parameter to determine which sound to play.
+
+Surfac e 0 -&gt; Grass
+Surface 1 -&gt; Rock
+Surface 2 -&gt; Metal</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>
