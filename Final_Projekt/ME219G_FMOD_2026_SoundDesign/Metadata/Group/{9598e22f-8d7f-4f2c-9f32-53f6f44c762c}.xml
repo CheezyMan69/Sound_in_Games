@@ -31,7 +31,7 @@
 	<object class="MixerBusFader" id="{adcbb82b-c746-48da-923b-38380de431b0}" />
 	<object class="MixerSend" id="{09a0ae59-ea10-43c4-b4b9-3ddd1a4ceb35}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{6fd8e322-669a-481f-9326-0fa3fc4e222f}</destination>
@@ -39,7 +39,7 @@
 	</object>
 	<object class="MixerSend" id="{e3932c14-120a-418d-85ae-ce7d78306429}">
 		<property name="inputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{2b2415f6-c0cf-4453-96a3-d7e73d8b2b25}</destination>

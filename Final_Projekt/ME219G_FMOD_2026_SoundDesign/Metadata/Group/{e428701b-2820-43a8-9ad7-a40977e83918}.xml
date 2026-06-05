@@ -5,7 +5,7 @@
 			<value>Magenta</value>
 		</property>
 		<property name="volume">
-			<value>-4</value>
+			<value>-10.5</value>
 		</property>
 		<property name="name">
 			<value>BGM_Boss</value>
@@ -23,8 +23,24 @@
 	<object class="MixerBusEffectChain" id="{b4827a1e-4450-42d7-bec5-d5780a5716eb}">
 		<relationship name="effects">
 			<destination>{f69f7dfe-eb49-4c0a-8d4c-d47457e1a2bb}</destination>
+			<destination>{5f1893ea-6b8c-459b-a605-57c9bf37562d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a7752281-6a57-41af-8df1-c81c75c348d2}" />
 	<object class="MixerBusFader" id="{f69f7dfe-eb49-4c0a-8d4c-d47457e1a2bb}" />
+	<object class="CompressorEffect" id="{5f1893ea-6b8c-459b-a605-57c9bf37562d}">
+		<property name="threshold">
+			<value>-51.5</value>
+		</property>
+		<property name="ratio">
+			<value>6.80000019</value>
+		</property>
+		<property name="releaseTime">
+			<value>140</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{027a8ebb-f3dc-4b8e-afc7-bb3ffd9f6c4f}</destination>
+			<destination>{0f4b8ab8-1dda-41e1-b9ce-a632978bb0e2}</destination>
+		</relationship>
+	</object>
 </objects>

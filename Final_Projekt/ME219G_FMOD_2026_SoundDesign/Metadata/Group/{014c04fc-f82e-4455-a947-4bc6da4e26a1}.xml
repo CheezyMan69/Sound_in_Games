@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Yellow Light 1</value>
 		</property>
+		<property name="volume">
+			<value>-17.5</value>
+		</property>
 		<property name="name">
 			<value>BOSS_STATE</value>
 		</property>

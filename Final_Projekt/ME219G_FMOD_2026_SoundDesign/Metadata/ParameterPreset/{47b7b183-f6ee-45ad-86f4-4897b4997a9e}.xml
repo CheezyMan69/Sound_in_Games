@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{47b7b183-f6ee-45ad-86f4-4897b4997a9e}">
+		<property name="name">
+			<value>SteamStage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c2bfcfe6-a7f5-4815-b7b1-a02882516693}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{32a493f1-0a34-4ddc-938b-2261c8a5d0ce}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{32a493f1-0a34-4ddc-938b-2261c8a5d0ce}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{b131de78-2838-40b6-b4b2-cf8cea09d49c}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{b131de78-2838-40b6-b4b2-cf8cea09d49c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
