@@ -15,9 +15,17 @@
 		<property name="initialValue">
 			<value>0</value>
 		</property>
+		<relationship name="automators">
+			<destination>{113d86e8-c751-40b4-a7f8-dcb9fa0806a2}</destination>
+		</relationship>
 		<relationship name="modulators">
 			<destination>{f0e7c297-4af4-4461-bb02-5176730bf6af}</destination>
 		</relationship>
+	</object>
+	<object class="Automator" id="{113d86e8-c751-40b4-a7f8-dcb9fa0806a2}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
 	</object>
 	<object class="SeekModulator" id="{f0e7c297-4af4-4461-bb02-5176730bf6af}">
 		<property name="nameOfPropertyBeingModulated">

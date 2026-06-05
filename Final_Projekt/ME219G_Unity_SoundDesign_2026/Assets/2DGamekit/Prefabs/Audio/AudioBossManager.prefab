@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4256432018734796895}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4256432018734796894
 MonoBehaviour:
@@ -46,62 +46,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossWalk:
     Guid:
-      Data1: -325465357
-      Data2: 1293583645
-      Data3: 1272434825
-      Data4: -126216714
-    Path: event:/Enemies/Gunner/Enemy_Gunner_Footstep
+      Data1: 1534641911
+      Data2: 1100503349
+      Data3: -1239085941
+      Data4: 1322238326
+    Path: event:/SFX/Boss/BossFootsteps
   bossLaserAttack:
     Guid:
-      Data1: 1293831972
-      Data2: 1327557442
-      Data3: -1556616782
-      Data4: 165396006
-    Path: event:/Enemies/Gunner/Enemy_Gunner_Attack_Laser
+      Data1: 1288752228
+      Data2: 1189315247
+      Data3: 1610110352
+      Data4: 1833784508
+    Path: event:/SFX/Boss/BossAttack/BossAttackLaser
   bossGrenadeAttack:
     Guid:
-      Data1: 1814344108
-      Data2: 1080982253
-      Data3: -1188903248
-      Data4: 1614685674
-    Path: event:/Enemies/Gunner/Enemy_Gunner_Attack_Grenade
+      Data1: 1043860909
+      Data2: 1177750858
+      Data3: 224324250
+      Data4: -2092243655
+    Path: event:/SFX/Boss/BossAttack/BossAttackGernade
   bossLightningAttack:
     Guid:
-      Data1: -698058754
-      Data2: 1279100591
-      Data3: -390776425
-      Data4: -1791159451
-    Path: event:/Enemies/Gunner/Enemy_Gunner_Attack_Lightning
+      Data1: -1016396412
+      Data2: 1306097859
+      Data3: 1978650794
+      Data4: -1828458295
+    Path: event:/SFX/Boss/BossAttack/BossAttackLightning
   bossTakeDamage:
     Guid:
-      Data1: -863462851
-      Data2: 1147650988
-      Data3: 1623805854
-      Data4: 486147281
-    Path: event:/Enemies/Gunner/Enemy_Gunner_Damage
+      Data1: 1375784702
+      Data2: 1226265922
+      Data3: 1367355290
+      Data4: -1996997994
+    Path: event:/SFX/Boss/BossDamageTaken
   bossShield:
     Guid:
-      Data1: -1815956617
-      Data2: 1336938448
-      Data3: -2090161784
-      Data4: -1325380017
-    Path: event:/Enemies/Gunner/Enemy_Gunner_Shield
+      Data1: 318339496
+      Data2: 1141762310
+      Data3: 1563372214
+      Data4: 511479716
+    Path: event:/SFX/Boss/BossState/BossStateSheild
   bossSteamStage:
     Guid:
-      Data1: 1729452980
-      Data2: 1237074571
-      Data3: -1809814884
-      Data4: -2093669621
-    Path: event:/Enemies/Gunner/Enemy_Gunner_Steam_Stages
+      Data1: 1278300775
+      Data2: 1192345998
+      Data3: -1110812486
+      Data4: -1033682352
+    Path: event:/SFX/Boss/BossState/BossStateSteam
   bossDie:
     Guid:
-      Data1: 731940493
-      Data2: 1287012204
-      Data3: 391509149
-      Data4: 470346607
-    Path: event:/Enemies/Gunner/Enemy_Gunner_Death
+      Data1: -288371979
+      Data2: 1261355062
+      Data3: 1615501707
+      Data4: -74119728
+    Path: event:/SFX/Boss/BossState/BossStateDie
   bossMusic: MusicBoss
   stageParameter: BossStage
-  stage1Value: 0
-  stage2Value: 0
-  bossDeathValue: 0
+  stage1Value: 2
+  stage2Value: 3
+  bossDeathValue: 4
+  stunParameter: BossStun

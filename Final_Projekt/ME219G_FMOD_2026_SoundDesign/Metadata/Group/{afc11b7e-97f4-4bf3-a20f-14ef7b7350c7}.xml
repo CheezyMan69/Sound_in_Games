@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Blue</value>
 		</property>
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<property name="name">
 			<value>AMB_MAN</value>
 		</property>
@@ -20,8 +23,25 @@
 	<object class="MixerBusEffectChain" id="{ff1c3a97-9c07-4969-a23f-36237fe729a3}">
 		<relationship name="effects">
 			<destination>{841d9c88-09c8-473a-abf9-f6b4335483e1}</destination>
+			<destination>{bf8b828b-92a5-4419-bf36-f13ac2ac62e7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{90cb3916-29cd-4910-8ea6-8810b204095a}" />
 	<object class="MixerBusFader" id="{841d9c88-09c8-473a-abf9-f6b4335483e1}" />
+	<object class="CompressorEffect" id="{bf8b828b-92a5-4419-bf36-f13ac2ac62e7}">
+		<property name="threshold">
+			<value>-24</value>
+		</property>
+		<property name="ratio">
+			<value>4</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{0f4b8ab8-1dda-41e1-b9ce-a632978bb0e2}</destination>
+			<destination>{6634a790-ed07-400a-99b5-a57cbe135da6}</destination>
+			<destination>{b4029336-bca5-46f7-a949-4c18fd54e601}</destination>
+			<destination>{6b201d2b-807b-4626-9e83-acfd7b914269}</destination>
+			<destination>{766139a8-cf67-4220-bc0a-a4dc95bdb3e9}</destination>
+			<destination>{668aa235-aef1-43da-a446-24de00bb08a7}</destination>
+		</relationship>
+	</object>
 </objects>

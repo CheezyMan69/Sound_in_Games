@@ -92,11 +92,23 @@
 	</object>
 	<object class="MixerBusPanner" id="{26073200-52e8-49c7-bf02-b5bc2b639b33}" />
 	<object class="MultiSound" id="{e82b1365-10fe-4d8d-a7f5-20de75d71021}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
+		<property name="triggerProbability">
+			<value>45</value>
+		</property>
 		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="isCutoff">
 			<value>true</value>
 		</property>
 		<property name="length">
 			<value>0.3209750566893424</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{2938c18f-13ec-41ed-97fe-07edf9db7c9e}</destination>

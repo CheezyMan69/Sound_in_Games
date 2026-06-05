@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{933bd099-b1ea-4482-8dd8-bc4ca4620dc7}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="name">
+			<value>ENE_MELLEE</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{500a7577-04ad-4cff-bc8c-83ed8f7a8146}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{3634770e-c63a-49cf-b961-ecb8dfbf9571}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a2a1fa7a-2f93-49fb-979c-e8278d295f69}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{500a7577-04ad-4cff-bc8c-83ed8f7a8146}">
+		<relationship name="effects">
+			<destination>{21cc2d5f-4738-46c4-9e4d-cb3a1d2b2e8c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{3634770e-c63a-49cf-b961-ecb8dfbf9571}" />
+	<object class="MixerBusFader" id="{21cc2d5f-4738-46c4-9e4d-cb3a1d2b2e8c}" />
+</objects>

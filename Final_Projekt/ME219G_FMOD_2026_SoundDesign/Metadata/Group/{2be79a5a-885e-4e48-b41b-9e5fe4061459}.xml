@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Magenta</value>
 		</property>
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Themes</value>
 		</property>
@@ -20,8 +23,20 @@
 	<object class="MixerBusEffectChain" id="{479921a8-d229-4fe5-a87b-7186e9269277}">
 		<relationship name="effects">
 			<destination>{7b2543ad-96ef-4919-8071-c83a3fcbdd44}</destination>
+			<destination>{49042b93-445d-4d98-9f7b-00bec2048a82}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0a00f79f-09e8-4be8-8aca-34a9d3c9362e}" />
 	<object class="MixerBusFader" id="{7b2543ad-96ef-4919-8071-c83a3fcbdd44}" />
+	<object class="CompressorEffect" id="{49042b93-445d-4d98-9f7b-00bec2048a82}">
+		<property name="threshold">
+			<value>-17.5</value>
+		</property>
+		<property name="ratio">
+			<value>3.4000001</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{0f4b8ab8-1dda-41e1-b9ce-a632978bb0e2}</destination>
+		</relationship>
+	</object>
 </objects>

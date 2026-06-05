@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Blue Light 2</value>
 		</property>
+		<property name="volume">
+			<value>-17</value>
+		</property>
 		<property name="name">
 			<value>SFX_MENU</value>
 		</property>
@@ -20,8 +23,10 @@
 	<object class="MixerBusEffectChain" id="{f6d382dd-0589-405f-bde6-134cc69c5d5b}">
 		<relationship name="effects">
 			<destination>{b570181c-368a-408a-9e57-6c7b67067cde}</destination>
+			<destination>{4e9400c0-3abf-481c-bad4-0f51d82e24b2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2c9aa87f-172c-48bd-af3a-cf72eb029729}" />
 	<object class="MixerBusFader" id="{b570181c-368a-408a-9e57-6c7b67067cde}" />
+	<object class="Sidechain" id="{4e9400c0-3abf-481c-bad4-0f51d82e24b2}" />
 </objects>

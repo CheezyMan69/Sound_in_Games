@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>OBJ_HEALTH</value>
 		</property>
@@ -14,7 +17,7 @@
 			<destination>{e8adeee1-ea54-4300-8369-c1e765aff546}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e774126e-3801-4145-9c53-40bb9c316140}</destination>
+			<destination>{31ee78b7-d6f1-4367-b1b3-0b4537771bfb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{61230a75-4964-4709-a49d-abc363becf8b}">

@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Red</value>
 		</property>
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<property name="name">
 			<value>ENE_ATTACK</value>
 		</property>
@@ -20,8 +23,10 @@
 	<object class="MixerBusEffectChain" id="{6cf2852b-b055-4fc8-8bc8-56fbceca7d05}">
 		<relationship name="effects">
 			<destination>{b23ea212-8d5b-42f5-b441-35610163e518}</destination>
+			<destination>{506086c8-8eb6-4746-872d-d9a0ecd61eec}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bce5d2cc-faba-43f6-bf93-06ccffc2895f}" />
 	<object class="MixerBusFader" id="{b23ea212-8d5b-42f5-b441-35610163e518}" />
+	<object class="Sidechain" id="{506086c8-8eb6-4746-872d-d9a0ecd61eec}" />
 </objects>

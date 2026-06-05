@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{31ee78b7-d6f1-4367-b1b3-0b4537771bfb}">
+		<property name="color">
+			<value>Cyan Light 2</value>
+		</property>
+		<property name="volume">
+			<value>-4</value>
+		</property>
+		<property name="name">
+			<value>OBJ_PICKUPS</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{9a92241e-c644-4729-a438-90770697e013}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{70331d87-afe2-4a2d-b427-f931420d2794}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e774126e-3801-4145-9c53-40bb9c316140}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{9a92241e-c644-4729-a438-90770697e013}">
+		<relationship name="effects">
+			<destination>{fa0c0e01-7658-43b9-b828-b81ff43779e1}</destination>
+			<destination>{0f4b8ab8-1dda-41e1-b9ce-a632978bb0e2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{70331d87-afe2-4a2d-b427-f931420d2794}" />
+	<object class="MixerBusFader" id="{fa0c0e01-7658-43b9-b828-b81ff43779e1}" />
+	<object class="Sidechain" id="{0f4b8ab8-1dda-41e1-b9ce-a632978bb0e2}" />
+</objects>

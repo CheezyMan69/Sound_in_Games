@@ -393,6 +393,7 @@
 			<destination>{92dd4f4f-8106-4eda-b810-677db6f95256}</destination>
 			<destination>{0dbe0114-f60d-4b04-922a-071451ca0686}</destination>
 			<destination>{33daad1c-5510-4456-aa6d-9735d2336b35}</destination>
+			<destination>{effb3e99-301b-4267-9602-765987f7eca9}</destination>
 			<destination>{f242a2c9-979f-4def-a897-5d39f05ff529}</destination>
 		</relationship>
 	</object>
@@ -576,6 +577,14 @@
 		</property>
 	</object>
 	<object class="SpectrumAnalyzer" id="{33daad1c-5510-4456-aa6d-9735d2336b35}" />
+	<object class="FlangerEffect" id="{effb3e99-301b-4267-9602-765987f7eca9}">
+		<property name="rate">
+			<value>0.459999979</value>
+		</property>
+		<property name="mix">
+			<value>64</value>
+		</property>
+	</object>
 	<object class="CompressorEffect" id="{f242a2c9-979f-4def-a897-5d39f05ff529}">
 		<property name="threshold">
 			<value>-38.5</value>
@@ -661,7 +670,7 @@
 	</object>
 	<object class="FlangerEffect" id="{8492891f-a499-4a5d-afb6-f208e4304ea1}">
 		<property name="rate">
-			<value>1.20000005</value>
+			<value>1.80000007</value>
 		</property>
 		<property name="delay">
 			<value>0.810000002</value>
@@ -673,7 +682,7 @@
 	<object class="SpectrumAnalyzer" id="{9782912d-30b7-4fef-afc7-2a15d4b4912a}" />
 	<object class="Sidechain" id="{e412c956-1115-44a4-821f-21ff6a16bd88}">
 		<property name="level">
-			<value>6</value>
+			<value>10</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{108bdc09-711b-451f-93de-3f1ce8953c07}" />

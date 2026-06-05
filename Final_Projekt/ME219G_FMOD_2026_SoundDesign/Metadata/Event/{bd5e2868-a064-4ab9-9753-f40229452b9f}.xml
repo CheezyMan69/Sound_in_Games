@@ -66,7 +66,11 @@
 			<destination>{6c5e44c8-848c-403c-89eb-d472a38763e6}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{9c3025ad-2b2f-4310-bd6a-c5320c700c6c}" />
+	<object class="EventAutomatableProperties" id="{9c3025ad-2b2f-4310-bd6a-c5320c700c6c}">
+		<property name="isPersistent">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{6e7ed4ef-e9b2-4969-bcb0-1775a692c719}" />
 	<object class="GroupTrack" id="{071cd4dc-895d-4099-8201-fd18320998d0}">
 		<relationship name="modules">
@@ -765,7 +769,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{e9d1c75f-8ef7-4604-bce8-b99ba8a5ea76}" />
 	<object class="MixerBusFader" id="{9a548f59-ecab-4530-80b0-78c103d7c11e}" />
-	<object class="ObjectSpatialiserEffect" id="{f564e829-3bc5-441a-b3c7-5c696905e1a2}" />
+	<object class="ObjectSpatialiserEffect" id="{f564e829-3bc5-441a-b3c7-5c696905e1a2}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>14</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{22ab2c12-1908-4b54-9bd1-018b0b83d7b9}">
 		<property name="position">
 			<value>1</value>

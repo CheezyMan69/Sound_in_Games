@@ -4,6 +4,9 @@
 		<property name="color">
 			<value>Cyan</value>
 		</property>
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>PLY_WEAP</value>
 		</property>
@@ -20,8 +23,10 @@
 	<object class="MixerBusEffectChain" id="{82912738-f1de-4fca-b0d0-508adab48366}">
 		<relationship name="effects">
 			<destination>{a4232fff-03b9-44bc-8da3-b147637e817c}</destination>
+			<destination>{027a8ebb-f3dc-4b8e-afc7-bb3ffd9f6c4f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ad03fbb9-f273-4722-97fa-ba558658ad60}" />
 	<object class="MixerBusFader" id="{a4232fff-03b9-44bc-8da3-b147637e817c}" />
+	<object class="Sidechain" id="{027a8ebb-f3dc-4b8e-afc7-bb3ffd9f6c4f}" />
 </objects>

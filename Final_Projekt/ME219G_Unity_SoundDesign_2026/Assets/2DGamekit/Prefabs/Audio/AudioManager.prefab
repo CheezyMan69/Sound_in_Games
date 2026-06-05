@@ -405,11 +405,11 @@ MonoBehaviour:
     Path: event:/SFX/Player/PlyWeaponMelee
   playerAttackRanged:
     Guid:
-      Data1: -2058494101
-      Data2: 1276823020
-      Data3: 1445662911
-      Data4: 542932608
-    Path: event:/SFX/Player/PlyWeaponRanged
+      Data1: -755065591
+      Data2: 1165839518
+      Data3: -199559252
+      Data4: 894447552
+    Path: event:/SFX/Player/PlyWeaponRanged 2
   playerHurt:
     Guid:
       Data1: 1013606413
@@ -489,32 +489,32 @@ MonoBehaviour:
     Path: event:/SFX/Menu/MenuClickStart
   enemyFootstep:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1918961566
+      Data2: 1316692023
+      Data3: 1040216721
+      Data4: 1644090143
+    Path: event:/SFX/Enemy/EneFootsteps
   enemyRanged:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -563887470
+      Data2: 1201990250
+      Data3: -1833025614
+      Data4: 1970342073
+    Path: event:/SFX/Enemy/EneAttackRanged
   enemyMelee:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1382535610
+      Data2: 1101367098
+      Data3: 691687556
+      Data4: 245833484
+    Path: event:/SFX/Enemy/EneAttackMelee
   enemyDeath:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1332224116
+      Data2: 1210360761
+      Data3: -1103128670
+      Data4: 192956056
+    Path: event:/SFX/Enemy/EneDeath
   stingerGameOver:
     Guid:
       Data1: 715162006

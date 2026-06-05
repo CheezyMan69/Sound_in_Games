@@ -57,7 +57,7 @@
 			<destination>{65f660f3-9b79-42b5-ba9d-1f01764cfb58}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{a2a1fa7a-2f93-49fb-979c-e8278d295f69}</destination>
+			<destination>{933bd099-b1ea-4482-8dd8-bc4ca4620dc7}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1aaecb5e-99b2-4518-8f45-189bdfebebb0}" />
@@ -111,7 +111,7 @@
 			<value>1.55</value>
 		</property>
 		<property name="volume">
-			<value>-28</value>
+			<value>-17</value>
 		</property>
 		<property name="pitch">
 			<value>7.5</value>
@@ -144,6 +144,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b94ee304-9832-4d1c-9603-77a1aec58346}">
+		<property name="volume">
+			<value>5.5</value>
+		</property>
 		<property name="name">
 			<value>Charge</value>
 		</property>
